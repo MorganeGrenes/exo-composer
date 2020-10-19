@@ -1,0 +1,17 @@
+{
+    "name": "morgane/php-composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "MorganeGrenes",
+            "email": "morganegrenes@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Vendor\\Namespace\\": ""
+        }
+    }
+}
